@@ -17,7 +17,7 @@
 <?php $base = '../'; $lang = 'en'; $active = 'services'; include __DIR__ . '/../includes/header.php'; ?>
 
 <section class="page-hero">
-  <img class="pattern" src="../assets/images/pattern-corner-dark.svg" alt="">
+  <img class="pattern" src="../assets/images/pattern-corner-dark.png" alt="">
   <div class="container wrap">
     <span class="crumb">Our Services</span>
     <h1>Everything your brand needs to move forward</h1>
@@ -41,7 +41,7 @@
     <div class="service-media">
       <img class="cover" src="../assets/images/stock/service-marketing.jpg" alt="Marketing team reviewing a brand campaign strategy">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,17 9,11 13,15 21,7"/><polyline points="14,7 21,7 21,14"/></svg>
-      <img class="pattern" src="../assets/images/pattern-corner-dark.svg" alt="">
+      <img class="pattern" src="../assets/images/pattern-corner-dark.png" alt="">
     </div>
   </div>
 </section>
@@ -51,7 +51,7 @@
     <div class="service-media" style="order:2">
       <img class="cover" src="../assets/images/stock/service-public-relations.jpg" alt="Microphones set up at a press conference">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="9" r="3"/><path d="M2 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="8" r="2.4"/><path d="M15 13.5c2.9.3 5 2.6 5 6.5"/></svg>
-      <img class="pattern" src="../assets/images/pattern-corner-dark.svg" alt="">
+      <img class="pattern" src="../assets/images/pattern-corner-dark.png" alt="">
     </div>
     <div style="order:1">
       <span class="service-index">02 / Public Relations</span>
@@ -83,7 +83,7 @@
     <div class="service-media">
       <img class="cover" src="../assets/images/stock/service-communications-media.jpg" alt="Professional video camera at a media production shoot">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10v4a1 1 0 001 1h2l5 4V5l-5 4H4a1 1 0 00-1 1z"/><path d="M15 8a4 4 0 010 8"/><path d="M18 5a8 8 0 010 14"/></svg>
-      <img class="pattern" src="../assets/images/pattern-corner-dark.svg" alt="">
+      <img class="pattern" src="../assets/images/pattern-corner-dark.png" alt="">
     </div>
   </div>
 </section>
@@ -93,7 +93,7 @@
     <div class="service-media" style="order:2">
       <img class="cover" src="../assets/images/stock/service-trusted-partnerships.jpg" alt="Business partners shaking hands with a city skyline in the background">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l6-6"/><path d="M13 5l1.5-1.5a3.5 3.5 0 015 5L18 10"/><path d="M11 19l-1.5 1.5a3.5 3.5 0 01-5-5L6 14"/></svg>
-      <img class="pattern" src="../assets/images/pattern-corner-dark.svg" alt="">
+      <img class="pattern" src="../assets/images/pattern-corner-dark.png" alt="">
     </div>
     <div style="order:1">
       <span class="service-index">04 / Trusted Partnerships</span>

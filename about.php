@@ -17,7 +17,7 @@
 <?php $base = ''; $lang = 'ar'; $active = 'about'; include __DIR__ . '/includes/header.php'; ?>
 
 <section class="page-hero">
-  <img class="pattern" src="assets/images/pattern-corner-dark.svg" alt="">
+  <img class="pattern" src="assets/images/pattern-corner-dark.png" alt="">
   <div class="container wrap">
     <span class="crumb">من نحن</span>
     <h1>من نحن، وكيف نساعدك</h1>

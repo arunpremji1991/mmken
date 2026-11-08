@@ -163,7 +163,7 @@ button{font-family:inherit;}
   padding:110px 0 130px;
 }
 .hero .pattern{
-  position:absolute; inset-inline-end:0; top:0; width:min(760px,70%); height:auto; opacity:.5; pointer-events:none;
+  position:absolute; inset-inline-end:0; top:0; width:min(300px,30%); height:auto; opacity:.6; pointer-events:none;
 }
 html[dir="rtl"] .hero .pattern{ transform:scaleX(-1); }
 .hero-grid{ position:relative; z-index:2; display:grid; grid-template-columns:1.1fr .9fr; gap:56px; align-items:center; }

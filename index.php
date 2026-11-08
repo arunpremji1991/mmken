@@ -17,7 +17,7 @@
 <?php $base = ''; $lang = 'ar'; $active = 'home'; include __DIR__ . '/includes/header.php'; ?>
 
 <section class="hero">
-  <img class="pattern" src="assets/images/pattern-corner-dark.svg" alt="">
+  <img class="pattern" src="assets/images/pattern-corner-dark.png" alt="">
   <div class="container hero-grid">
     <div class="hero-inner">
       <span class="eyebrow">ممكن للعلاقات العامة</span>
@@ -43,7 +43,7 @@
       <a href="about.php" class="btn btn-outline-navy">المزيد عنا</a>
     </div>
     <div>
-      <img src="assets/images/pattern-corner-light.svg" alt="" style="width:100%;opacity:.9;">
+      <img src="assets/images/pattern-corner-light.png" alt="" style="width:100%;opacity:.9;">
     </div>
   </div>
 </section>

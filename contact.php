@@ -24,7 +24,7 @@ include __DIR__ . '/includes/header.php';
 ?>
 
 <section class="page-hero">
-  <img class="pattern" src="assets/images/pattern-corner-dark.svg" alt="">
+  <img class="pattern" src="assets/images/pattern-corner-dark.png" alt="">
   <div class="container wrap">
     <span class="crumb">تواصل معنا</span>
     <h1>لنبدأ الحديث</h1>
