@@ -85,4 +85,4 @@ $pages = ['home' => 'index.php', 'about' => 'about.php', 'services' => 'services
   </div>
 </footer>
 
-<script src="<?= $base ?>assets/js/main.js"></script>
+<script src="<?= $base ?>assets/js/main.js?v=<?= @filemtime(__DIR__ . '/../assets/js/main.js') ?>"></script>
