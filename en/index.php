@@ -14,27 +14,7 @@
 </head>
 <body>
 
-<header class="site-header">
-  <div class="wrap">
-    <a href="index.html" class="brand">
-      <img src="../assets/images/logo/mpr-logo-color.png" alt="MPR — M'mken Public Relations">
-    </a>
-    <nav class="main-nav">
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <a href="../index.html" class="lang-switch lang-switch-mobile">⇄ العربية</a>
-    </nav>
-    <div class="header-actions">
-      <a href="contact.html" class="btn btn-gold btn-sm header-cta">Get in Touch</a>
-      <a href="../index.html" class="lang-switch desktop-only">العربية</a>
-      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</header>
+<?php $base = '../'; $lang = 'en'; $active = 'home'; include __DIR__ . '/../includes/header.php'; ?>
 
 <section class="hero">
   <img class="pattern" src="../assets/images/pattern-corner-dark.svg" alt="">
@@ -44,8 +24,8 @@
       <h1>Public Relations, <em>Made Possible.</em></h1>
       <p class="lead">MPR connects Omani and international brands with the media, the market, and the right people — through strategic public relations, innovative marketing, and exclusive partnerships built on trust.</p>
       <div class="hero-actions">
-        <a href="services.html" class="btn btn-gold">Our Services</a>
-        <a href="contact.html" class="btn btn-outline">Talk to Us</a>
+        <a href="services.php" class="btn btn-gold">Our Services</a>
+        <a href="contact.php" class="btn btn-outline">Talk to Us</a>
       </div>
     </div>
     <div class="hero-media">
@@ -60,7 +40,7 @@
       <span class="tag">Who We Are</span>
       <h2>Your partner for growth in the Omani market</h2>
       <p>MPR (M'mken Public Relations) is a Salalah-based public relations, marketing, and brand-representation agency. We help businesses build their presence, tell their story to the right audience, and connect with trusted, exclusive opportunities across the Sultanate of Oman.</p>
-      <a href="about.html" class="btn btn-outline-navy">More About Us</a>
+      <a href="about.php" class="btn btn-outline-navy">More About Us</a>
     </div>
     <div>
       <img src="../assets/images/pattern-corner-light.svg" alt="" style="width:100%;opacity:.9;">
@@ -79,25 +59,25 @@
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,17 9,11 13,15 21,7"/><polyline points="14,7 21,7 21,14"/></svg></div>
         <h3>Marketing</h3>
         <p>We design innovative marketing solutions that strengthen your brand's presence and reach the right audience.</p>
-        <a href="services.html" class="more">Learn more →</a>
+        <a href="services.php" class="more">Learn more →</a>
       </div>
       <div class="card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="9" r="3"/><path d="M2 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="8" r="2.4"/><path d="M15 13.5c2.9.3 5 2.6 5 6.5"/></svg></div>
         <h3>Public Relations</h3>
         <p>We build strong, lasting bridges of communication between you and your clients.</p>
-        <a href="services.html" class="more">Learn more →</a>
+        <a href="services.php" class="more">Learn more →</a>
       </div>
       <div class="card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10v4a1 1 0 001 1h2l5 4V5l-5 4H4a1 1 0 00-1 1z"/><path d="M15 8a4 4 0 010 8"/><path d="M18 5a8 8 0 010 14"/></svg></div>
         <h3>Communications & Media</h3>
         <p>We manage media campaigns and deliver comprehensive coverage that gets your message seen and heard.</p>
-        <a href="services.html" class="more">Learn more →</a>
+        <a href="services.php" class="more">Learn more →</a>
       </div>
       <div class="card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l6-6"/><path d="M13 5l1.5-1.5a3.5 3.5 0 015 5L18 10"/><path d="M11 19l-1.5 1.5a3.5 3.5 0 01-5-5L6 14"/></svg></div>
         <h3>Trusted Partnerships</h3>
         <p>We connect you directly with exclusive, vetted investment and business opportunities.</p>
-        <a href="services.html" class="more">Learn more →</a>
+        <a href="services.php" class="more">Learn more →</a>
       </div>
     </div>
   </div>
@@ -137,52 +117,11 @@
         <h3>Let's build your presence in Oman.</h3>
         <p>Tell us about your brand, and we'll tell you how MPR can help.</p>
       </div>
-      <a href="contact.html" class="btn btn-gold">Get in Touch</a>
+      <a href="contact.php" class="btn btn-gold">Get in Touch</a>
     </div>
   </div>
 </section>
 
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <img src="../assets/images/logo/mpr-logo-reversed.png" alt="MPR — M'mken Public Relations">
-        <p>Public Relations, Made Possible.</p>
-      </div>
-      <div>
-        <h5>Company</h5>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>Services</h5>
-        <ul>
-          <li><a href="services.html">Marketing</a></li>
-          <li><a href="services.html">Public Relations</a></li>
-          <li><a href="services.html">Communications & Media</a></li>
-          <li><a href="services.html">Trusted Partnerships</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>Get in Touch</h5>
-        <ul>
-          <li><a href="tel:+96899481181">+968 9948 1181</a></li>
-          <li><a href="mailto:htabook@mmken.om">htabook@mmken.om</a></li>
-          <li><span>Salalah, Sultanate of Oman</span></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 MPR — M'mken Public Relations. All rights reserved.</span>
-      <span>Designed with pride in Salalah, Oman.</span>
-    </div>
-  </div>
-</footer>
-
-<script src="../assets/js/main.js"></script>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 </body>
 </html>

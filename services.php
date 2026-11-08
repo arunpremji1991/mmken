@@ -14,27 +14,7 @@
 </head>
 <body>
 
-<header class="site-header">
-  <div class="wrap">
-    <a href="index.html" class="brand">
-      <img src="assets/images/logo/mpr-logo-color.png" alt="ممكن للعلاقات العامة">
-    </a>
-    <nav class="main-nav">
-      <ul>
-        <li><a href="index.html">الرئيسية</a></li>
-        <li><a href="about.html">من نحن</a></li>
-        <li><a href="services.html" class="active">خدماتنا</a></li>
-        <li><a href="contact.html">تواصل معنا</a></li>
-      </ul>
-      <a href="en/services.html" class="lang-switch lang-switch-mobile">English ⇄</a>
-    </nav>
-    <div class="header-actions">
-      <a href="contact.html" class="btn btn-gold btn-sm header-cta">تواصل معنا</a>
-      <a href="en/services.html" class="lang-switch desktop-only">English</a>
-      <button class="nav-toggle" aria-label="القائمة"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</header>
+<?php $base = ''; $lang = 'ar'; $active = 'services'; include __DIR__ . '/includes/header.php'; ?>
 
 <section class="page-hero">
   <img class="pattern" src="assets/images/pattern-corner-dark.svg" alt="">
@@ -136,52 +116,11 @@
         <h3>لم تجد ما تبحث عنه بالضبط؟</h3>
         <p>تواصل معنا وسنصمم لك الحل المناسب.</p>
       </div>
-      <a href="contact.html" class="btn btn-gold">تواصل معنا</a>
+      <a href="contact.php" class="btn btn-gold">تواصل معنا</a>
     </div>
   </div>
 </section>
 
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <img src="assets/images/logo/mpr-logo-reversed.png" alt="ممكن للعلاقات العامة">
-        <p>علاقات عامة... أصبحت مُمكنة.</p>
-      </div>
-      <div>
-        <h5>الشركة</h5>
-        <ul>
-          <li><a href="index.html">الرئيسية</a></li>
-          <li><a href="about.html">من نحن</a></li>
-          <li><a href="services.html">خدماتنا</a></li>
-          <li><a href="contact.html">تواصل معنا</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>خدماتنا</h5>
-        <ul>
-          <li><a href="services.html">خبراء تسويق</a></li>
-          <li><a href="services.html">علاقات عامة</a></li>
-          <li><a href="services.html">التواصل والإعلام</a></li>
-          <li><a href="services.html">شراكات موثوقة</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>تواصل معنا</h5>
-        <ul>
-          <li><a href="tel:+96899481181">99481181 968+</a></li>
-          <li><a href="mailto:htabook@mmken.om">htabook@mmken.om</a></li>
-          <li><span>صلالة، سلطنة عُمان</span></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 ممكن للعلاقات العامة. جميع الحقوق محفوظة.</span>
-      <span>صُمم بكل فخر في صلالة، عُمان.</span>
-    </div>
-  </div>
-</footer>
-
-<script src="assets/js/main.js"></script>
+<?php include __DIR__ . '/includes/footer.php'; ?>
 </body>
 </html>

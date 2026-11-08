@@ -14,27 +14,7 @@
 </head>
 <body>
 
-<header class="site-header">
-  <div class="wrap">
-    <a href="index.html" class="brand">
-      <img src="assets/images/logo/mpr-logo-color.png" alt="ممكن للعلاقات العامة">
-    </a>
-    <nav class="main-nav">
-      <ul>
-        <li><a href="index.html" class="active">الرئيسية</a></li>
-        <li><a href="about.html">من نحن</a></li>
-        <li><a href="services.html">خدماتنا</a></li>
-        <li><a href="contact.html">تواصل معنا</a></li>
-      </ul>
-      <a href="en/index.html" class="lang-switch lang-switch-mobile">English ⇄</a>
-    </nav>
-    <div class="header-actions">
-      <a href="contact.html" class="btn btn-gold btn-sm header-cta">تواصل معنا</a>
-      <a href="en/index.html" class="lang-switch desktop-only">English</a>
-      <button class="nav-toggle" aria-label="القائمة"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</header>
+<?php $base = ''; $lang = 'ar'; $active = 'home'; include __DIR__ . '/includes/header.php'; ?>
 
 <section class="hero">
   <img class="pattern" src="assets/images/pattern-corner-dark.svg" alt="">
@@ -44,8 +24,8 @@
       <h1>علاقات عامة... أصبحت <em>مُمكنة.</em></h1>
       <p class="lead">تربط «ممكن للعلاقات العامة» العلامات التجارية العُمانية والدولية بالإعلام والسوق والجهات المناسبة، من خلال علاقات عامة استراتيجية، وتسويق مبتكر، وشراكات حصرية مبنية على الثقة.</p>
       <div class="hero-actions">
-        <a href="services.html" class="btn btn-gold">خدماتنا</a>
-        <a href="contact.html" class="btn btn-outline">تواصل معنا</a>
+        <a href="services.php" class="btn btn-gold">خدماتنا</a>
+        <a href="contact.php" class="btn btn-outline">تواصل معنا</a>
       </div>
     </div>
     <div class="hero-media">
@@ -60,7 +40,7 @@
       <span class="tag">من نحن</span>
       <h2>شريكك في النمو داخل السوق العُماني</h2>
       <p>«ممكن للعلاقات العامة» هي وكالة علاقات عامة وتسويق وتمثيل تجاري مقرها صلالة، تساعد الشركات على بناء حضورها، وإيصال رسالتها إلى الجمهور المناسب، والارتباط بفرص موثوقة وحصرية في مختلف ربوع سلطنة عُمان.</p>
-      <a href="about.html" class="btn btn-outline-navy">المزيد عنا</a>
+      <a href="about.php" class="btn btn-outline-navy">المزيد عنا</a>
     </div>
     <div>
       <img src="assets/images/pattern-corner-light.svg" alt="" style="width:100%;opacity:.9;">
@@ -79,25 +59,25 @@
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,17 9,11 13,15 21,7"/><polyline points="14,7 21,7 21,14"/></svg></div>
         <h3>خبراء تسويق</h3>
         <p>نصمّم حلولاً تسويقية مبتكرة تعزز حضور علامتك التجارية وتصل بها إلى الجمهور الصحيح.</p>
-        <a href="services.html" class="more">المزيد ←</a>
+        <a href="services.php" class="more">المزيد ←</a>
       </div>
       <div class="card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="9" r="3"/><path d="M2 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="8" r="2.4"/><path d="M15 13.5c2.9.3 5 2.6 5 6.5"/></svg></div>
         <h3>علاقات عامة</h3>
         <p>نبني جسور تواصل قوية ودائمة بينك وبين عملائك.</p>
-        <a href="services.html" class="more">المزيد ←</a>
+        <a href="services.php" class="more">المزيد ←</a>
       </div>
       <div class="card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10v4a1 1 0 001 1h2l5 4V5l-5 4H4a1 1 0 00-1 1z"/><path d="M15 8a4 4 0 010 8"/><path d="M18 5a8 8 0 010 14"/></svg></div>
         <h3>التواصل والإعلام</h3>
         <p>ندير الحملات الإعلامية ونوفر تغطية شاملة تضمن وصول رسالتك بأعلى دقة وأوسع انتشار.</p>
-        <a href="services.html" class="more">المزيد ←</a>
+        <a href="services.php" class="more">المزيد ←</a>
       </div>
       <div class="card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l6-6"/><path d="M13 5l1.5-1.5a3.5 3.5 0 015 5L18 10"/><path d="M11 19l-1.5 1.5a3.5 3.5 0 01-5-5L6 14"/></svg></div>
         <h3>شراكات موثوقة</h3>
         <p>نربطك مباشرة بفرص استثمارية وتجارية حصرية وموثوقة.</p>
-        <a href="services.html" class="more">المزيد ←</a>
+        <a href="services.php" class="more">المزيد ←</a>
       </div>
     </div>
   </div>
@@ -137,52 +117,11 @@
         <h3>لنبنِ حضورك في عُمان.</h3>
         <p>أخبرنا عن علامتك التجارية، وسنخبرك كيف يمكن لـ«ممكن» أن تساعدك.</p>
       </div>
-      <a href="contact.html" class="btn btn-gold">تواصل معنا</a>
+      <a href="contact.php" class="btn btn-gold">تواصل معنا</a>
     </div>
   </div>
 </section>
 
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <img src="assets/images/logo/mpr-logo-reversed.png" alt="ممكن للعلاقات العامة">
-        <p>علاقات عامة... أصبحت مُمكنة.</p>
-      </div>
-      <div>
-        <h5>الشركة</h5>
-        <ul>
-          <li><a href="index.html">الرئيسية</a></li>
-          <li><a href="about.html">من نحن</a></li>
-          <li><a href="services.html">خدماتنا</a></li>
-          <li><a href="contact.html">تواصل معنا</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>خدماتنا</h5>
-        <ul>
-          <li><a href="services.html">خبراء تسويق</a></li>
-          <li><a href="services.html">علاقات عامة</a></li>
-          <li><a href="services.html">التواصل والإعلام</a></li>
-          <li><a href="services.html">شراكات موثوقة</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>تواصل معنا</h5>
-        <ul>
-          <li><a href="tel:+96899481181">99481181 968+</a></li>
-          <li><a href="mailto:htabook@mmken.om">htabook@mmken.om</a></li>
-          <li><span>صلالة، سلطنة عُمان</span></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 ممكن للعلاقات العامة. جميع الحقوق محفوظة.</span>
-      <span>صُمم بكل فخر في صلالة، عُمان.</span>
-    </div>
-  </div>
-</footer>
-
-<script src="assets/js/main.js"></script>
+<?php include __DIR__ . '/includes/footer.php'; ?>
 </body>
 </html>

@@ -14,27 +14,14 @@
 </head>
 <body>
 
-<header class="site-header">
-  <div class="wrap">
-    <a href="index.html" class="brand">
-      <img src="../assets/images/logo/mpr-logo-color.png" alt="MPR — M'mken Public Relations">
-    </a>
-    <nav class="main-nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
-      <a href="../contact.html" class="lang-switch lang-switch-mobile">⇄ العربية</a>
-    </nav>
-    <div class="header-actions">
-      <a href="tel:+96899481181" class="btn btn-gold btn-sm header-cta">Call Us</a>
-      <a href="../contact.html" class="lang-switch desktop-only">العربية</a>
-      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</header>
+<?php
+$base = '../';
+$lang = 'en';
+$active = 'contact';
+$ctaHref = 'tel:+96899481181';
+$ctaLabel = 'Call Us';
+include __DIR__ . '/../includes/header.php';
+?>
 
 <section class="page-hero">
   <img class="pattern" src="../assets/images/pattern-corner-dark.svg" alt="">
@@ -97,47 +84,6 @@
   </div>
 </section>
 
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <img src="../assets/images/logo/mpr-logo-reversed.png" alt="MPR — M'mken Public Relations">
-        <p>Public Relations, Made Possible.</p>
-      </div>
-      <div>
-        <h5>Company</h5>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>Services</h5>
-        <ul>
-          <li><a href="services.html">Marketing</a></li>
-          <li><a href="services.html">Public Relations</a></li>
-          <li><a href="services.html">Communications & Media</a></li>
-          <li><a href="services.html">Trusted Partnerships</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>Get in Touch</h5>
-        <ul>
-          <li><a href="tel:+96899481181">+968 9948 1181</a></li>
-          <li><a href="mailto:htabook@mmken.om">htabook@mmken.om</a></li>
-          <li><span>Salalah, Sultanate of Oman</span></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 MPR — M'mken Public Relations. All rights reserved.</span>
-      <span>Designed with pride in Salalah, Oman.</span>
-    </div>
-  </div>
-</footer>
-
-<script src="../assets/js/main.js"></script>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 </body>
 </html>
