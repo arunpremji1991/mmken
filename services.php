@@ -29,7 +29,7 @@
   <div class="container grid-2">
     <div>
       <span class="service-index">01 / التسويق</span>
-      <h2>خبراء تسويق</h2>
+      <h2>التسويق</h2>
       <p>نصمم حلولاً تسويقية مبتكرة تعزز حضور علامتك التجارية في السوق، وتضعك أمام الجمهور الصحيح؛ بدءاً من استراتيجية العلامة التجارية وتموضعها، وحتى الحملات الرقمية ومتابعة الأداء.</p>
       <ul class="service-list">
         <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> استراتيجية العلامة التجارية وتموضعها</li>
@@ -55,11 +55,11 @@
     </div>
     <div style="order:1">
       <span class="service-index">02 / العلاقات العامة</span>
-      <h2>علاقات عامة</h2>
+      <h2>العلاقات العامة</h2>
       <p>نبني جسور تواصل قوية ودائمة بينك وبين عملائك؛ من خلال إدارة سمعتك، وعلاقتك بالجهات المعنية، والطريقة التي تُروى بها قصتك.</p>
       <ul class="service-list">
         <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> إدارة السمعة والعلاقة مع الجهات المعنية</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> البيانات الصحفية والبيانات الإعلامية</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> البيانات الصحفية والتصريحات الإعلامية</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> تخطيط الفعاليات وتنسيقها</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> إدارة التواصل في الأزمات</li>
       </ul>
@@ -72,7 +72,7 @@
     <div>
       <span class="service-index">03 / التواصل والإعلام</span>
       <h2>التواصل والإعلام</h2>
-      <p>نتخصص في تصميم وإدارة حملات إعلامية مبتكرة، وتوفير تغطيات شاملة تضمن وصول رسالتكم إلى الجمهور المستهدف بأعلى دقة وأوسع انتشار.</p>
+      <p>نتخصص في تصميم وإدارة حملات إعلامية مبتكرة، وتوفير تغطيات شاملة تضمن وصول رسالتك إلى الجمهور المستهدف بأعلى دقة وأوسع انتشار.</p>
       <ul class="service-list">
         <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> تصميم الحملات الإعلامية وإدارتها</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> التنسيق مع الصحافة والبث الإعلامي</li>
@@ -91,7 +91,7 @@
 <section class="service-block bg-off">
   <div class="container grid-2">
     <div class="service-media" style="order:2">
-      <img class="cover" src="assets/images/stock/service-trusted-partnerships.jpg" alt="شريكان أعمال يتصافحان وفي الخلفية أفق المدينة">
+      <img class="cover" src="assets/images/stock/service-trusted-partnerships.jpg" alt="شريكا أعمال يتصافحان وفي الخلفية أفق المدينة">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l6-6"/><path d="M13 5l1.5-1.5a3.5 3.5 0 015 5L18 10"/><path d="M11 19l-1.5 1.5a3.5 3.5 0 01-5-5L6 14"/></svg>
       <img class="pattern" src="assets/images/pattern-corner-dark.png" alt="">
     </div>

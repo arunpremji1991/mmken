@@ -40,8 +40,8 @@ $pages = ['home' => 'index.php', 'about' => 'about.php', 'services' => 'services
         <?php if ($lang === 'ar'): ?>
           <h5>خدماتنا</h5>
           <ul>
-            <li><a href="<?= $base . $pages['services'] ?>">خبراء تسويق</a></li>
-            <li><a href="<?= $base . $pages['services'] ?>">علاقات عامة</a></li>
+            <li><a href="<?= $base . $pages['services'] ?>">التسويق</a></li>
+            <li><a href="<?= $base . $pages['services'] ?>">العلاقات العامة</a></li>
             <li><a href="<?= $base . $pages['services'] ?>">التواصل والإعلام</a></li>
             <li><a href="<?= $base . $pages['services'] ?>">شراكات موثوقة</a></li>
           </ul>
@@ -59,7 +59,7 @@ $pages = ['home' => 'index.php', 'about' => 'about.php', 'services' => 'services
         <?php if ($lang === 'ar'): ?>
           <h5>تواصل معنا</h5>
           <ul>
-            <li><a href="tel:+96899481181">99481181 968+</a></li>
+            <li><a href="tel:+96899481181" dir="ltr">+968 9948 1181</a></li>
             <li><a href="mailto:htabook@mmken.om">htabook@mmken.om</a></li>
             <li><span>صلالة، سلطنة عُمان</span></li>
           </ul>

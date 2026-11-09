@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="hero-media">
-      <img src="assets/images/stock/hero-handshake.jpg" alt="مصافحة بين شريكين أعمال تتويجاً لاتفاق ناجح">
+      <img src="assets/images/stock/hero-handshake.jpg" alt="مصافحة بين شريكي أعمال تتويجاً لاتفاق ناجح">
     </div>
   </div>
 </section>
@@ -57,13 +57,13 @@
     <div class="grid-4">
       <div class="card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,17 9,11 13,15 21,7"/><polyline points="14,7 21,7 21,14"/></svg></div>
-        <h3>خبراء تسويق</h3>
+        <h3>التسويق</h3>
         <p>نصمّم حلولاً تسويقية مبتكرة تعزز حضور علامتك التجارية وتصل بها إلى الجمهور الصحيح.</p>
         <a href="services.php" class="more">المزيد ←</a>
       </div>
       <div class="card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="9" r="3"/><path d="M2 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="8" r="2.4"/><path d="M15 13.5c2.9.3 5 2.6 5 6.5"/></svg></div>
-        <h3>علاقات عامة</h3>
+        <h3>العلاقات العامة</h3>
         <p>نبني جسور تواصل قوية ودائمة بينك وبين عملائك.</p>
         <a href="services.php" class="more">المزيد ←</a>
       </div>

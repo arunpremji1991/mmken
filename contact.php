@@ -28,7 +28,7 @@ include __DIR__ . '/includes/header.php';
   <div class="container wrap">
     <span class="crumb">تواصل معنا</span>
     <h1>لنبدأ الحديث</h1>
-    <p>لديك علامة تجارية أو حملة أو فرصة تفكر فيها؟ نحن هنا للإجابة عن استفساراتكم واستكشاف فرص التعاون المشتركة.</p>
+    <p>لديك علامة تجارية أو حملة أو فرصة تفكر فيها؟ نحن هنا للإجابة عن استفساراتك واستكشاف فرص التعاون المشتركة.</p>
   </div>
 </section>
 
@@ -39,8 +39,8 @@ include __DIR__ . '/includes/header.php';
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.5-1.3a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.7 2z"/></svg></div>
         <div>
           <h4>اتصل بنا</h4>
-          <p style="margin-bottom:4px"><a href="tel:+96899481181">99481181 968+</a></p>
-          <p style="margin-bottom:0"><a href="tel:+96892083835">92083835 968+</a></p>
+          <p style="margin-bottom:4px"><a href="tel:+96899481181" dir="ltr">+968 9948 1181</a></p>
+          <p style="margin-bottom:0"><a href="tel:+96892083835" dir="ltr">+968 9208 3835</a></p>
         </div>
       </div>
       <div class="contact-card">
